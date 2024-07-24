@@ -5,3 +5,19 @@ Although Azure’s Resource Manager still operates based on the JSON format, and
 
 ![image](https://github.com/user-attachments/assets/9f7eac5d-c37d-49e5-833c-4331d93ab2f3)
 
+<details>
+  <summary>
+    <span><b>Basics</b></span>
+    <p><i>Declarations of new and existing resources, variables, parameters and outputs, etcetera.</i></p>
+  </summary>
+
+### Create a resource
+
+```bicep
+resource resourceName 'ResourceType@version' = {
+  name: 'exampleResourceName'
+  properties: {
+    // resource properties here
+  }
+}
+```
