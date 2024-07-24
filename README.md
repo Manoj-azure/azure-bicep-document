@@ -3,3 +3,5 @@ Azure Bicep is a domain-specific language (also known as DSL) designed by Micros
 
 Although Azure’s Resource Manager still operates based on the JSON format, and your Azure Bicep templates will be converted to Json format when you submit them, it is clear that Azure Bicep templates are more readable and easier to maintain for developers than Json-based Azure Resource Manager (ARM) templates.
 
+![image](https://github.com/user-attachments/assets/9f7eac5d-c37d-49e5-833c-4331d93ab2f3)
+
